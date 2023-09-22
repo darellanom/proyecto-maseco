@@ -1,0 +1,126 @@
+/*TIPOGRAFIA*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,800&display=swap');
+
+/* RESET GLOBAL PROPIEDAD SACAR MARGENES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+    color: #1AA3B3;
+    font-size: 16px;
+}
+
+
+ul, li {
+    list-style-type: none;
+}
+
+.sombra{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #1AA3B3
+}
+
+/* efecto sombra textos slogan */
+.simple {
+    background:  none;
+    text-shadow: 0 3px 0 rgba(255, 255, 255, 0.4);
+    font-family: Pacifico;
+    color: #1D4A7A;
+  }
+.textoazul{
+    color: #1D4A7A;
+}
+.textoverde{
+    color: #1AA3B3
+}
+
+
+ .cajapadre{
+
+    background-image: linear-gradient(to right,#6fc7ab, white);
+    background-color: #6fc7ab;
+}
+.video{
+    width: 1000px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/* ENCABEZADO */
+
+.encabezado{
+    background: linear-gradient(#B4DED1, white)
+
+}
+.piedepagina{
+    background: linear-gradient(white, #B4DED1)
+}
+
+
+.menu {
+    margin-left: 300px;
+    margin-right: 0%;
+    margin-top:30px;
+    flex-wrap: wrap;
+}
+
+/* efecto sombra movimiento mouse */
+    .link-menu{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #1AA3B3
+    
+}
+
+.link-menu:hover{
+    color: #1D4A7A;
+}
+
+.text-justify {
+    text-align: justify;
+  }
+
+.miboton {
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#1D4A7A;
+	border-radius:17px;
+	border:1px solid #1D4A7A;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.miboton:hover {
+	background:linear-gradient(to bottom, #7187b4 5%, #4a6086 100%);
+	background-color:#415989;
+}
+
+.sinborde{
+  border: none;
+  background-color: transparent; 
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+
+.checkbtn{
+   font-size: 30px;
+   color: black;
+}
