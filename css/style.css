@@ -88,7 +88,7 @@ a {
     text-align: justify;
   }
 
-.miboton {
+.mibotontexto {
 	box-shadow:inset 0px 0px 15px 3px #23395e;
 	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
 	background-color:#1D4A7A;
@@ -97,15 +97,34 @@ a {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-size:15px;
+	font-size:17px;
 	padding:6px 13px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #263666;
 }
-.miboton:hover {
+.mibotontexto:hover {
 	background:linear-gradient(to bottom, #7187b4 5%, #4a6086 100%);
 	background-color:#415989;
 }
+.mibotonicono {
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#1D4A7A;
+	border-radius:17px;
+	/* border:1px solid #1D4A7A; */
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:8px 13px;
+	text-decoration:none;
+
+}
+.mibotonicono:hover {
+	background:linear-gradient(to bottom, #7187b4 5%, #4a6086 100%);
+	background-color:#415989;
+}
+
 
 .sinborde{
   border: none;
@@ -124,3 +143,4 @@ a {
    font-size: 30px;
    color: black;
 }
+
