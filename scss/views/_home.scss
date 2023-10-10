@@ -1,0 +1,62 @@
+
+header{
+    background: $fondo-encabezado-color;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: $font-color-1
+}
+
+.nav-link:hover{
+    color: $font-color-2
+}
+
+.textoazul{
+    color: $font-color-2;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+  }
+
+.video{
+    width: 1000px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.slogan{
+    p{
+    font-family:'Pacifico';
+    text-shadow: 0 3px 0 rgba(255, 255, 255, 0.4);
+    font-family: Pacifico;
+    color: $font-color-2;
+    }   
+}
+
+.sinborde{
+    border: none;
+    background-color: transparent; 
+  }
+
+.cajapadre{
+    background: $fondo-main-color;
+    @include jfy;
+}
+
+.miboton {
+	@include mi-btn;
+}
+.miboton:hover{
+    @include hb-mi-btn;
+}
+
+footer {
+    background: $fondo-footer-color;
+}
