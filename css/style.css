@@ -72,3 +72,9 @@ header {
 
 footer {
   background: linear-gradient(white, #B4DED1); }
+
+.slogan {
+  font-family: 'Pacifico';
+  text-shadow: 0 3px 0 rgba(255, 255, 255, 0.4);
+  font-family: Pacifico;
+  color: #1D4A7A; }
