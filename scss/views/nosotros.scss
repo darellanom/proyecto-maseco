@@ -1,3 +1,7 @@
-.slogan{
-    @include font-uno;
+.slogannts{
+    @include font-dos(35px, $font-color-2);   
+}
+.textodosn{
+    @include font-uno(25px, $font-color-2)
+    @include jfy;
 }

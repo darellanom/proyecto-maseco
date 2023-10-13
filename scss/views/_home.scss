@@ -4,7 +4,7 @@ header{
 }
 
 .nav-link{
-    @include font-dos;
+    @include font-uno(18px, $font-color-1);
 }
 
 .nav-link:hover{
@@ -29,9 +29,7 @@ header{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .slogan{
-    p{
-    @include font-uno;
-    }   
+    @include font-dos(35px, $font-color-2) ;
 }
 
 .sinborde{
@@ -53,4 +51,10 @@ header{
 
 footer {
     background: $fondo-footer-color;
+}
+
+
+@media (min-width:600px) {
+   margin-right: none;
+   margin-left: none;
 }

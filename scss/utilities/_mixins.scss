@@ -24,16 +24,20 @@
     background-color: $font-color-2;
 }
 
-@mixin font-uno {
-    font-family:'Pacifico';
-    text-shadow: 0 3px 0 rgba(255, 255, 255, 0.4);
-    font-family: Pacifico;
-    color: $font-color-2;
+@mixin font-uno ($fsizeuno, $coloruno){
+    font-family: 'Raleway', sans-serif;
+    font-size: $fsizeuno;
+    font-weight: 600;
+    color: $coloruno;
 }
 
-@mixin font-dos{
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    color: $font-color-1
+@mixin font-dos ($fsizedos, $colordos){
+    font-family:'Pacifico';
+    font-size: $fsizedos;
+    text-shadow: 0 3px 0 rgba(255, 255, 255, 0.4);
+    color: $colordos;
+}
+
+@mixin dflx {
+    justify-content: center;
 }
