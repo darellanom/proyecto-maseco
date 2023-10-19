@@ -58,3 +58,13 @@ footer {
    margin-right: none;
    margin-left: none;
 }
+
+.textoecn{
+    @include font-uno(18px, $font-color-2)
+    @include jfy; 
+}
+
+.pad30{
+    padding-left: 30px;
+    padding-right: 30px;
+}

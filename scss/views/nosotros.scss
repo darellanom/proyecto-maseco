@@ -1,7 +1,17 @@
 .slogannts{
     @include font-dos(35px, $font-color-2);   
 }
+
+.textounon{
+    @include font-uno(18px, $font-color-2);
+    @include jfy;
+}
+.textounonb{
+    @include font-uno(18px, $font-color-2);
+    font-weight: 900;
+    @include jfy;
+}
 .textodosn{
-    @include font-uno(25px, $font-color-2)
+    @include font-dos(35px, $font-color-2);
     @include jfy;
 }
