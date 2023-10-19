@@ -1,0 +1,7 @@
+.fuenteunotiendo{
+    @include font-dos(30px, $font-color-2)
+}
+
+.fuentedostiendo{
+    @include font-uno(18px, $font-color-1)
+}

@@ -1,6 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,800&display=swap");
+@keyframes scale-in-hor-left {
+  0% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    opacity: 1; }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    opacity: 1; } }
+
+@keyframes color-change-4x {
+  0% {
+    background: #19dcea; }
+  33.3333% {
+    background: #1D4A7A; }
+  66.666% {
+    background: #481974; }
+  100% {
+    background: #1010f5; } }
+
 * {
   margin: 0;
   padding: 0;
@@ -132,27 +156,36 @@ footer {
   font-weight: 900;
   text-align: justify; }
 
+.textounonprecio {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  font-weight: 900; }
+
 .circulos {
   width: 200px; }
 
-@-webkit-keyframes scale-in-tl {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    -webkit-transform-origin: 0% 0%;
-    transform-origin: 0% 0%;
-    opacity: 1; }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: 0% 0%;
-    transform-origin: 0% 0%;
-    opacity: 1; } }
-
-.scale-in-tl {
-  -webkit-animation: scale-in-tl 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: scale-in-tl 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+.scale-in-hor-left {
+  -webkit-animation: scale-in-hor-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-hor-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 .bgcnovedades {
   display: none;
   background-color: cadetblue; }
+
+.color-change-4x {
+  -webkit-animation: color-change-4x 6s linear infinite alternate both;
+  animation: color-change-4x 6s linear infinite alternate both; }
+
+.fuenteunotiendo {
+  font-family: 'Pacifico';
+  font-size: 30px;
+  text-shadow: 0 3px 0 rgba(255, 255, 255, 0.4);
+  color: #1D4A7A; }
+
+.fuentedostiendo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1AA3B3; }

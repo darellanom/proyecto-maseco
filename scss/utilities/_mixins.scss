@@ -41,3 +41,34 @@
 @mixin dflx {
     justify-content: center;
 }
+
+@keyframes scale-in-hor-left {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+
+  @keyframes color-change-4x {
+    0% {
+      background: #19dcea; }
+    33.3333% {
+      background: #1D4A7A; }
+    66.666% {
+      background: #481974; }
+    100% {
+      background: #1010f5; } }
+  
+
+
+  
