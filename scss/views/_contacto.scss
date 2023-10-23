@@ -1,0 +1,71 @@
+
+.textounocontacto{
+    @include font-uno(30px, $font-color-1);
+    @include jfy;
+}
+
+.textodoscontacto{
+    @include font-dos(30px, $font-color-2);
+    @include jfy;
+}
+.textotrescontacto{
+    @include font-uno(18px, $font-color-2);
+    @include jfy;
+    
+}
+.textocuatrocontacto{
+    @include font-uno(18px, $font-color-1);  
+}
+
+.textoimputcontacto{
+    @include font-uno(18px, rgb(203, 202, 202))
+}
+
+.textoredescontacto1{
+    @include font-uno(18px, $font-color-1);
+}
+
+.textoredescontacto1:hover{
+    color: $font-color-2;
+}
+
+.textoredescontacto2{
+    @include font-uno(18px, $font-color-2);
+}
+
+.espaciado150{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.btnenviarcontacto{
+    @include mi-btn;
+}
+
+.btnenviarcontacto:hover{
+    @include hb-mi-btn
+}
+
+.bordemapa{
+    border:3px solid $font-color-1
+}
+
+@media only screen and (min-width:300px) {
+    #mapa{
+        width: 250px;
+    }
+    .logofondo{
+        @include logofondo;
+        background-repeat: initial;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    #mapa{
+        width: 500px;
+    }
+    .logofondo{
+        @include logofondo;
+    }
+
+}

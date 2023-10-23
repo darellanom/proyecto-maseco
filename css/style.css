@@ -51,6 +51,12 @@ header {
 .nav-link:hover {
   color: #1D4A7A; }
 
+.szredes1 {
+  width: 40px; }
+
+.szredes2 {
+  width: 30px; }
+
 .textoazul {
   color: #1D4A7A; }
 
@@ -189,3 +195,90 @@ footer {
   font-size: 18px;
   font-weight: 600;
   color: #1AA3B3; }
+
+.textounocontacto {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1AA3B3;
+  text-align: justify; }
+
+.textodoscontacto {
+  font-family: 'Pacifico';
+  font-size: 30px;
+  text-shadow: 0 3px 0 rgba(255, 255, 255, 0.4);
+  color: #1D4A7A;
+  text-align: justify; }
+
+.textotrescontacto {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1D4A7A;
+  text-align: justify; }
+
+.textocuatrocontacto {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1AA3B3; }
+
+.textoimputcontacto {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #cbcaca; }
+
+.textoredescontacto1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1AA3B3; }
+
+.textoredescontacto1:hover {
+  color: #1D4A7A; }
+
+.textoredescontacto2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1D4A7A; }
+
+.espaciado150 {
+  padding-left: 150px;
+  padding-right: 150px; }
+
+.btnenviarcontacto {
+  background-color: #1AA3B3;
+  border-radius: 30px;
+  border: 3px solid #1D4A7A;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 4px 9px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #263666; }
+
+.btnenviarcontacto:hover {
+  background-color: #1D4A7A; }
+
+.bordemapa {
+  border: 3px solid #1AA3B3; }
+
+@media only screen and (min-width: 300px) {
+  #mapa {
+    width: 250px; }
+  .logofondo {
+    background-image: url("../../media/logos/fondomaseco.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-repeat: initial; } }
+
+@media only screen and (min-width: 600px) {
+  #mapa {
+    width: 500px; }
+  .logofondo {
+    background-image: url("../../media/logos/fondomaseco.png");
+    background-size: contain;
+    background-repeat: no-repeat; } }
