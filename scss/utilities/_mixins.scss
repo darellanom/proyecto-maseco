@@ -70,9 +70,5 @@
       background: #1010f5; } }
   
 @mixin logofondo {
-    background-image: url('../../media/logos/fondomaseco.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-  
-    
+    background-image: url(../../media/logos/fondomaseco.png); 
 }

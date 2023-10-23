@@ -266,19 +266,18 @@ footer {
 .bordemapa {
   border: 3px solid #1AA3B3; }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (max-width: 400px) {
   #mapa {
     width: 250px; }
   .logofondo {
-    background-image: url("../../media/logos/fondomaseco.png");
+    background-image: url(../../media/logos/fondomaseco.png);
     background-size: contain;
-    background-repeat: no-repeat;
     background-repeat: initial; } }
 
 @media only screen and (min-width: 600px) {
   #mapa {
     width: 500px; }
   .logofondo {
-    background-image: url("../../media/logos/fondomaseco.png");
+    background-image: url(../../media/logos/fondomaseco.png);
     background-size: contain;
     background-repeat: no-repeat; } }
