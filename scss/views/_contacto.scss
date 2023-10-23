@@ -50,25 +50,33 @@
     border:3px solid $font-color-1
 }
 
+
+
+@media only screen and (max-width: 600px) {
+    #logofondo{
+        background-image: url(../../media/logos/masecobg.png);
+        background-size: contain;
+        background-repeat: initial;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #logofondo{
+        background-image: url(../../media/logos/masecobg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
 @media only screen and (max-width: 600px) {
     #mapa{
         width: 250px;
     }
-    #logofondo{
-        background-image: url(../../media/logos/fondomaseco.png);
-        background-size: contain;
-        background-repeat: initial;
-}
 }
 
 @media only screen and (min-width: 600px) {
     #mapa{
         width: 500px;
     }
-    #logofondo{
-        background-image: url(../../media/logos/fondomaseco.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
 }
+
+
