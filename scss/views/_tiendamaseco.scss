@@ -1,7 +1,11 @@
-.fuenteunotiendo{
+.fuenteunotienda{
     @include font-dos(30px, $font-color-2)
 }
 
-.fuentedostiendo{
+.fuentedostienda{
     @include font-uno(18px, $font-color-1)
+}
+
+.fuentetrestienda{
+    @include font-uno(30px, white)
 }

@@ -50,11 +50,11 @@
     border:3px solid $font-color-1
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     #mapa{
         width: 250px;
     }
-    .logofondo{
+    #logofondo{
         @include logofondo;
         background-size: contain;
         background-repeat: initial;
@@ -65,7 +65,7 @@
     #mapa{
         width: 500px;
     }
-    .logofondo{
+    #logofondo{
         @include logofondo;
         background-size: contain;
         background-repeat: no-repeat;

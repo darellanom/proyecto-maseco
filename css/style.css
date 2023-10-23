@@ -103,6 +103,12 @@ header {
 footer {
   background: linear-gradient(white, #B4DED1); }
 
+@media only screen and (max-width: 600px) {
+  #desplegable {
+    background-color: transparent;
+    text-align: center;
+    color: #1D4A7A; } }
+
 @media (min-width: 600px) {
   margin-right: none;
   margin-left: none; }
@@ -184,17 +190,23 @@ footer {
   -webkit-animation: color-change-4x 6s linear infinite alternate both;
   animation: color-change-4x 6s linear infinite alternate both; }
 
-.fuenteunotiendo {
+.fuenteunotienda {
   font-family: 'Pacifico';
   font-size: 30px;
   text-shadow: 0 3px 0 rgba(255, 255, 255, 0.4);
   color: #1D4A7A; }
 
-.fuentedostiendo {
+.fuentedostienda {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 600;
   color: #1AA3B3; }
+
+.fuentetrestienda {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: white; }
 
 .textounocontacto {
   font-family: 'Raleway', sans-serif;
@@ -266,10 +278,10 @@ footer {
 .bordemapa {
   border: 3px solid #1AA3B3; }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   #mapa {
     width: 250px; }
-  .logofondo {
+  #logofondo {
     background-image: url(../../media/logos/fondomaseco.png);
     background-size: contain;
     background-repeat: initial; } }
@@ -277,7 +289,7 @@ footer {
 @media only screen and (min-width: 600px) {
   #mapa {
     width: 500px; }
-  .logofondo {
+  #logofondo {
     background-image: url(../../media/logos/fondomaseco.png);
     background-size: contain;
     background-repeat: no-repeat; } }

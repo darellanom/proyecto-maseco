@@ -60,6 +60,14 @@ footer {
     background: $fondo-footer-color;
 }
 
+@media only screen and (max-width: 600px) {
+    #desplegable{
+        background-color: transparent;
+        text-align: center;
+        color: $font-color-2
+    }
+
+}
 
 @media (min-width:600px) {
    margin-right: none;
