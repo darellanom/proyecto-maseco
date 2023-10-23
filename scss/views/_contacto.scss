@@ -50,7 +50,7 @@
     border:3px solid $font-color-1
 }
 
-@media only screen and (min-width:500px) {
+@media only screen and (min-width:350px) {
     #mapa{
         width: 250px;
     }
@@ -60,7 +60,7 @@
     }
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:1200px) {
     #mapa{
         width: 500px;
     }
