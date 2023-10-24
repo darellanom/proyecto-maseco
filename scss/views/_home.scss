@@ -60,14 +60,23 @@ footer {
     background: $fondo-footer-color;
 }
 
+
+
 @media only screen and (max-width: 600px) {
     #desplegable{
         background-color: transparent;
         text-align: center;
         color: $font-color-2
     }
-
 }
+
+@media only screen and (max-width: 600px) {  
+    #navbarSupportedContent{
+        display: flex;
+        justify-content: end; 
+    }
+}
+
 
 .textoecn{
     @include font-uno(18px, $font-color-2);

@@ -109,6 +109,11 @@ footer {
     text-align: center;
     color: #1D4A7A; } }
 
+@media only screen and (max-width: 600px) {
+  #navbarSupportedContent {
+    display: flex;
+    justify-content: end; } }
+
 .textoecn {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -308,9 +313,17 @@ footer {
   color: #1D4A7A; }
 
 .imgnoticia {
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin-bottom: 10px; }
+
+.zsgif1 {
+  width: 300px; }
+
+.zsgif2 {
   width: 300px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
 
-.zsgif {
-  width: 300px; }
+.bgnoticas {
+  background: linear-gradient(white, #B4DED1); }

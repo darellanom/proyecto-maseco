@@ -1,5 +1,5 @@
 .fnoticiasuno{
-    @include font-uno(18px, $font-color-2)
+    @include font-uno(18px, $font-color-2);
     @include jfy;
 }
 
@@ -9,11 +9,22 @@
 }
 
 .imgnoticia{
-    width: 300px;
+    width: auto;
     @include sombra;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.zsgif{
+.zsgif1{
     width: 300px;
+    
 }
+.zsgif2{
+    width: 300px;
+    @include sombra;
+    margin-bottom: 10px;
+}
+
+.bgnoticas{
+    background: $fondo-footer-color;
+}
+
