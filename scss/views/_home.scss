@@ -60,8 +60,6 @@ footer {
     background: $fondo-footer-color;
 }
 
-
-
 @media only screen and (max-width: 600px) {
     #desplegable{
         background-color: transparent;
@@ -69,8 +67,6 @@ footer {
         color: $font-color-2
     }
 }
-
-
 
 .textoecn{
     @include font-uno(18px, $font-color-2);
