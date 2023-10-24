@@ -109,11 +109,6 @@ footer {
     text-align: center;
     color: #1D4A7A; } }
 
-@media only screen and (max-width: 600px) {
-  #navbarSupportedContent {
-    display: flex;
-    justify-content: end; } }
-
 .textoecn {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
