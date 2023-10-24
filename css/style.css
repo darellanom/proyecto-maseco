@@ -109,10 +109,6 @@ footer {
     text-align: center;
     color: #1D4A7A; } }
 
-@media (min-width: 600px) {
-  margin-right: none;
-  margin-left: none; }
-
 .textoecn {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;

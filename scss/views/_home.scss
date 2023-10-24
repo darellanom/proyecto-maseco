@@ -69,13 +69,8 @@ footer {
 
 }
 
-@media (min-width:600px) {
-   margin-right: none;
-   margin-left: none;
-}
-
 .textoecn{
-    @include font-uno(18px, $font-color-2)
+    @include font-uno(18px, $font-color-2);
     @include jfy; 
 }
 
