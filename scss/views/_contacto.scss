@@ -54,7 +54,7 @@
 
 @media only screen and (max-width: 600px) {
     #logofondo{
-        background-image: url(../../media/logos/masecobg.jpg);
+        background-image: url(/media/logos/masecobg.jpg);
         background-size: contain;
         background-repeat: initial;
     }
@@ -62,7 +62,7 @@
 
 @media only screen and (min-width: 600px) {
     #logofondo{
-        background-image: url(../../media/logos/masecobg.jpg);
+        background-image: url(/media/logos/masecobg.jpg);
         background-size: contain;
         background-repeat: no-repeat;
     }
