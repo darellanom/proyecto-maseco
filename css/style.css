@@ -297,3 +297,24 @@ footer {
 @media only screen and (min-width: 600px) {
   #mapa {
     width: 500px; } }
+
+.fnoticiasuno {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1D4A7A;
+  text-align: justify; }
+
+.fnoticiasdos {
+  font-family: 'Pacifico';
+  font-size: 25px;
+  text-shadow: 0 3px 0 rgba(255, 255, 255, 0.4);
+  color: #1D4A7A; }
+
+.imgnoticia {
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin-bottom: 20px; }
+
+.zsgif {
+  width: 300px; }

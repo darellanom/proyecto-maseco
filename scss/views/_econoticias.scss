@@ -1,0 +1,19 @@
+.fnoticiasuno{
+    @include font-uno(18px, $font-color-2)
+    @include jfy;
+}
+
+.fnoticiasdos{
+    @include font-dos(25px, $font-color-2)
+    
+}
+
+.imgnoticia{
+    width: 300px;
+    @include sombra;
+    margin-bottom: 20px;
+}
+
+.zsgif{
+    width: 300px;
+}

@@ -33,7 +33,7 @@ header{
 .video{
     width: 1000px;
     height: 350px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    @include sombra;
 }
 .slogan{
     @include font-dos(35px, $font-color-2) ;
