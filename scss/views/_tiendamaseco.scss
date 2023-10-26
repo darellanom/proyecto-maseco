@@ -1,11 +1,26 @@
-.fuenteunotienda{
-    @include font-dos(30px, $font-color-2)
+.texto1tienda{
+    @include font-dos(35px, $font-color-2)
 }
 
-.fuentedostienda{
+.texto2tienda{
     @include font-uno(18px, $font-color-1)
 }
 
-.fuentetrestienda{
+.texto3tienda{
     @include font-uno(30px, white)
+}
+
+@media only screen and (max-width: 600px) {
+
+    .texto1tienda{
+        @include font-dos(20px, $font-color-2)
+    }
+    
+    .texto2tienda{
+        @include font-uno(15px, $font-color-1)
+    }
+    
+    .texto3tienda{
+        @include font-uno(15px, white)
+    }  
 }

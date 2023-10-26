@@ -14,6 +14,13 @@ header{
 .szredes1{
     width: 40px;
 }
+.szlogo1{
+    width: 150px;
+}
+.szlogo2{
+    width: 200px;
+}
+
 .szredes2{
     width: 30px;
 }
@@ -36,9 +43,19 @@ header{
     @include sombra;
 }
 .slogan{
-    @include font-dos(35px, $font-color-2) ;
+    @include font-dos(35px, $font-color-2);
+}
+.texto1inicio{
+    @include font-uno(18px, $font-color-2);
+    font-weight: 900;
+    @include jfy;
 }
 
+//textoecn
+.texto2inicio{
+    @include font-uno(18px, $font-color-2);
+    @include jfy; 
+}
 .sinborde{
     border: none;
     background-color: transparent; 
@@ -66,14 +83,23 @@ footer {
         text-align: center;
         color: $font-color-2
     }
+    .slogan{
+        @include font-dos(20px, $font-color-2);
+    }
+
+    .texto1inicio{
+        @include font-uno(15px, $font-color-2);
+        font-weight: 900;
+        @include jfy;
+    }
+    .texto2inicio{
+        @include font-uno(15px, $font-color-2);
+        @include jfy; 
+    }
 }
 
-.textoecn{
-    @include font-uno(18px, $font-color-2);
-    @include jfy; 
-}
 
 .pad30{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }

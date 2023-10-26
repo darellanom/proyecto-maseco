@@ -1,12 +1,12 @@
-.slogannts{
-    @include font-dos(35px, $font-color-2);   
+.texto1nosotros{
+    @include font-dos(35px, $font-color-2);      
 }
 
-.textounon{
+.texto2nosotros{
     @include font-uno(18px, $font-color-2);
     @include jfy;
 }
-.textounonb{
+.texto3nosotros{
     @include font-uno(18px, $font-color-2);
     font-weight: 900;
     @include jfy;
@@ -14,4 +14,21 @@
 .textodosn{
     @include font-dos(35px, $font-color-2);
     @include jfy;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .texto1nosotros{
+        @include font-dos(20px, $font-color-2);   
+    }
+    
+    .texto2nosotros{
+        @include font-uno(15px, $font-color-2);
+        @include jfy;
+    }
+    .texto3nosotros{
+        @include font-uno(15px, $font-color-2);
+        font-weight: 900;
+        @include jfy;
+    }
 }

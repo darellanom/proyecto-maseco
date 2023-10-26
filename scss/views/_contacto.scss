@@ -1,19 +1,19 @@
 
-.textounocontacto{
+.texto1contacto{
     @include font-uno(30px, $font-color-1);
     @include jfy;
 }
 
-.textodoscontacto{
+.texto2contacto{
     @include font-dos(30px, $font-color-2);
     @include jfy;
 }
-.textotrescontacto{
+.texto3contacto{
     @include font-uno(18px, $font-color-2);
     @include jfy;
     
 }
-.textocuatrocontacto{
+.texto4contacto{
     @include font-uno(18px, $font-color-1);  
 }
 
@@ -58,6 +58,32 @@
         background-size: contain;
         background-repeat: initial;
     }
+    .texto1contacto{
+        @include font-uno(20px, $font-color-1);
+        @include jfy;
+    }
+    
+    .texto2contacto{
+        @include font-dos(20px, $font-color-2);
+        @include jfy;
+    }
+    .texto3contacto{
+        @include font-uno(18px, $font-color-2);
+        @include jfy;
+        
+    }
+    .texto4contacto{
+        @include font-uno(15px, $font-color-1);  
+    }
+    
+    .textoimputcontacto{
+        @include font-uno(15px, rgb(203, 202, 202))
+    }
+    
+    .textoredescontacto1{
+        @include font-uno(15px, $font-color-1);
+    }
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -67,6 +93,7 @@
         background-repeat: no-repeat;
     }
 }
+
 @media only screen and (max-width: 600px) {
     #mapa{
         width: 250px;

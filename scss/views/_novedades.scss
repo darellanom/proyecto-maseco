@@ -1,19 +1,17 @@
-.textounonovedades{
-    @include font-uno(25px, $font-color-2);
-    font-weight: 900;
+
+.texto1novedades{
+    @include font-dos(35px, $font-color-2);
+}
+
+.texto2novedades{
+    @include font-uno(18px, $font-color-2);
     @include jfy;
 }
 
-.textounonovpr{
-    @include font-uno(30px, white);
-    font-weight: 900;
-    @include jfy;
+.texto3novedades{
+    @include font-uno(35px, white);
 }
 
-.textounonprecio{
-  @include font-uno(30px, white);
-  font-weight: 900;
-}
 .circulos{
     width: 200px;
 }
@@ -31,4 +29,27 @@
 .color-change-4x {
 	-webkit-animation: color-change-4x 6s linear infinite alternate both;
 	animation: color-change-4x 6s linear infinite alternate both;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .texto1novedades{
+        @include font-dos(20px, $font-color-2);
+    }
+
+    #pd1{
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        padding-left: none;
+        padding-right: none;
+    }
+    
+    .texto2novedades{
+        @include font-uno(15px, $font-color-2);
+        @include jfy;
+    }
+    .texto3novedades{
+        @include font-uno(20px, white);
+    }
 }
